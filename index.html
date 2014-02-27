@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Easy Notes</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<div id="content">
+		<div id="header">Easy Notes</div>
+		<div id="main">
+			<div id="text">
+			<div class="panel panel-default" style="height:544px;">
+			<div>
+				<div id="title" contentEditable="true" tabindex="0"></div>
+			</div>
+  			<div class="panel-body" contentEditable="true" id="textEditor" tabindex="1"></div>
+  			<div id="option">
+  			<button type="button" class="btn btn-default btn-xs" id="save">Save</button>
+  			<button type="button" class="btn btn-default btn-xs" id="delete">Delete</button>
+  			</div>
+			</div>
+
+			</div>
+
+			<div id="list">
+				<div class="panel panel-default">
+  					<div class="panel-heading">Notes List
+  					
+  					<span class="glyphicon glyphicon-plus" id="add"></span>
+					<!--<button type="button" class="btn btn-default btn-lg">
+  					<span class="glyphicon glyphicon-star" style="align:right;"></span> Star
+					</button>-->
+  					</div>
+  					<div class="panel-body">
+  						<div id="listNotes">
+  						<div class="list-group" id="titleList">
+  						<!--<a href="#" class="list-group-item">Dapibus ac facilisis in<span class="glyphicon glyphicon-pencil" id="edit"></span></a>-->
+
+						</div><!--end of list-group-->
+						</div>
+						<div id="Page">
+						<ul class="pagination" id="pages">
+  						<li><a href="#" id="pageIcon">&laquo;</a></li>
+  						<li><a href="#" id="pageIcon">1</a></li>
+ 		 				<li><a href="#" id="pageIcon">2</a></li>
+  						<li><a href="#" id="pageIcon">3</a></li>
+  						<!--<li><a href="#" id="pageIcon">4</a></li>-->
+  						
+  						<li><a href="#" id="pageIcon">&raquo;</a></li>
+						</ul>
+						</div>
+  					</div>
+  				</div>
+			</div>
+		</div>
+	</div>
+
+
+<script type="text/javascript" src="js/notes.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
