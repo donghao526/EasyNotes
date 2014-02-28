@@ -1,0 +1,15 @@
+{
+	"name" : "Easy Notes",
+	"description" : "It is used to take notes easily.",
+	"version" : "1",
+	"app":{
+		"launch" : {
+			"local_path" : "index.html"
+		}
+	},
+	"icons" : {
+		"16" : "images/16.png",
+		"128" : "images/128.png"
+	},
+	"manifest_version" : 2
+}
